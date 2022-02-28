@@ -24,11 +24,14 @@ body{
     color: var(--brown);
     font-family: 'Cairo', sans-serif;
 font-family: 'Sunflower', sans-serif;
-text-decoration:none;
+
 }
 
 .main-screen {
     padding: 0px var(--horizontal-space);
 }
 
+.main-screen a{
+    text-decoration:none;
+}
 
