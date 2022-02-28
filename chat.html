@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600&family=Sunflower:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Chat w/ Nico - Kokoa Clone</title>
+</head>
+<body id="chat-screen">
+    <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fa-solid fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>110%</span>
+                <i class="fa-solid fa-battery-full fa-lg"></i>
+                <i class="fa-solid fa-bolt"></i>
+            </div>
+    </div>
+
+
+    <heaader class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html">
+            <i class="fa-solid fa-angle-left fa-2x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt_header_title">Nick</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fa-solid fa-magnifying-glass fa-la"></i></span>
+            <span><i class="fa-solid fa-bars fa-la"></i></span>
+        </div>
+    </heaader>
+
+
+    <main class="main-screen main-chat">
+     <div class="chat__timestamp">
+        Tuesday, June 30, 2020
+     </div>
+     <div class="messege-row message-row--freind">
+         <img src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-beer-st-patricks-day-justicon-lineal-color-justicon-2.png"></img>
+         <div class="message-row__content">
+             <span class="message__author">Nick</span>
+             <div class="message__info">
+                 <span class="message__bubble">Beer garden this Friday?</span>
+                 <span class="message__time">21:27</span>
+             </div>
+         </div>
+     </div> 
+     
+    
+     <div class="messege-row message-row--own">
+       
+         <div class="message-row__content">
+           
+             <div class="message__info">
+                 <span class="message__bubble">Yesssssss!!!</span>
+                 <span class="message__time">21:27</span>
+             </div>
+         </div>
+     </div>  
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+        <i class="fa-solid fa-square-plus fa-2x"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message...">
+            <i class="fa-solid fa-face-smile-wink fa-lg"></i>
+            <button>
+                <i class="fa-solid fa-circle-arrow-up"></i>
+            </button>
+        </div>
+        
+    </form>
+
+    <div id="no-mobile">
+        <img src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-beer-st-patricks-day-justicon-lineal-color-justicon.png"/>
+        <span>Your screen is too big :(</span>
+    </div>
+
+  
+    <script src="https://kit.fontawesome.com/4b63dffcca.js" crossorigin="anonymous"></script>
+</body>
+</html>

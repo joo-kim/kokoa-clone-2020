@@ -1,0 +1,30 @@
+.screen-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px 25px 25px;
+    margin-bottom: 15px;
+    background-image: url("https://image.freepik.com/free-vector/flat-beer-background_23-2147741393.jpg");
+    background-size: 25%;
+    position: fixed;
+    width: 100%;
+    z-index: 80;
+    
+    
+}
+
+.screen-header__title {
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--brown);
+}
+
+.screen-header__icons{
+    margin-right: 50px;
+}
+.screen-header__icons span {
+    margin-left: 25px;
+    position: relative;
+    color: var(--brown);
+    
+}

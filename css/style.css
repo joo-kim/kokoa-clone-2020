@@ -1,0 +1,33 @@
+@import url('./reset.css');
+@import url('./variables.css');
+/*Components*/
+@import url('./components/status-bar.css');
+@import url('./components/nav-bar.css');
+@import url('./components/screen-header.css');
+@import url('./components/user.component.css');
+@import url('./components/badge.css');
+@import url('./components/point.css');
+@import url('./components/icon-row.css');
+@import url('./components/alt-screen-header.css');
+@import url('./components/no-mobile.css');
+@import url("./components/no-landscape.css");
+
+/*Screens*/
+@import url('./screens/login.css');
+@import url('./screens/friends.css');
+@import url('./screens/find.css');
+@import url('./screens/more.css');
+@import url('./screens/settings.css');
+@import url('./screens/chat.css');
+
+body{
+    color: var(--brown);
+    font-family: 'Cairo', sans-serif;
+font-family: 'Sunflower', sans-serif;
+}
+
+.main-screen {
+    padding: 0px var(--horizontal-space);
+}
+
+
