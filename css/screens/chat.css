@@ -1,7 +1,8 @@
 #chat-screen {
-    background-image: url("/img/beer-handles-bg.jpg");
+    background-image: url("https://media.istockphoto.com/vectors/pints-vector-id165040690?b=1&k=20&m=165040690&s=612x612&w=0&h=bIVAvc5N9bGztlbzToYRQ2GZi3kY7UWk83ZCcteiSwc=");
     background-size: contain;
     background-repeat: no-repeat;
+    background-size: 70%;
     background-position: bottom;
     height: 100vh;
 }
