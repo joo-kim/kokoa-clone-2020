@@ -160,9 +160,7 @@ border: 3px solid var(--yellow);}
     transition: all 0.3s ease-in-out;
 
 }
-.reply__column{
-   
-}
+
 .reply .reply__column:first-child {
     width: 10%;
 
