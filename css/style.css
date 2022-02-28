@@ -35,6 +35,8 @@ font-family: 'Sunflower', sans-serif;
     text-decoration:none;
 }
 
-button {
+input {
     -webkit-appearance: none;
-}
+    -webkit-border-radius: none;
+    }
+    
