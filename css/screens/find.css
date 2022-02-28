@@ -85,6 +85,7 @@
 .open-post__photo img{
     width: 100px;
     height: 100px;
+    object-fit: contain;
     border-radius: 10px;
 }
 .open-post__heart-count{
@@ -108,8 +109,9 @@
 
 .open-post__photo{
     position: relative;
-    border: 2px solid var(--yellow);
+    border: 3px solid var(--yellow);
     border-radius: 15px;
+   
     
 }
 
